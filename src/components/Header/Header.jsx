@@ -22,7 +22,6 @@ const Header = () => {
   return (
     <>
       <Navbar />
-
       <header id="header-wrap">
         {/* <!-- Hero Area Start --> */}
         <div id="hero-area" className="hero-area-bg">
@@ -38,10 +37,10 @@ const Header = () => {
                     Hi This is
                   </h5>
                   <h2 className="head-title wow fadeInUp" data-wow-delay="0.4s">
-                    Tom Saulnier
+                    Felipe Souza
                   </h2>
                   <p className="script-font wow fadeInUp" data-wow-delay="0.6s">
-                    Front-end Web Developer and Graphic Designer
+                    {"I'm a Front-end Software Developer"}
                   </p>
                   <ul
                     className="social-icon wow fadeInUp"

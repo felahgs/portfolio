@@ -39,28 +39,6 @@ const Navbar = () => {
         </div>
 
         {/* TODO create mobile responsive menu */}
-        {/* <!-- Mobile Menu Start --> */}
-        <ul className="onepage-nev mobile-menu">
-          <li>
-            <a href="#home">Home</a>
-          </li>
-          <li>
-            <a href="#about">about</a>
-          </li>
-          <li>
-            <a href="#services">Services</a>
-          </li>
-          <li>
-            <a href="#resume">resume</a>
-          </li>
-          <li>
-            <a href="#portfolio">Work</a>
-          </li>
-          <li>
-            <a href="#contact">Contact</a>
-          </li>
-        </ul>
-        {/* <!-- Mobile Menu End --> */}
       </nav>
     </div>
   );
