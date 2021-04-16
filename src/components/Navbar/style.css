@@ -40,3 +40,11 @@ navbar-expand-lg .navbar-nav .nav-link i {
 .navbar li.active a.nav-link {
   color: #00b4d9;
 }
+
+.indigo {
+  background: #fff;
+}
+
+.menu-bg {
+  background: transparent;
+}
