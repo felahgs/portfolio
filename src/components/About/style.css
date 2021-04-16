@@ -1,0 +1,43 @@
+.about-profile {
+  position: relative;
+  margin: 20px 0 30px 0;
+}
+
+.about-profile .pro-title {
+  font-weight: 700;
+  color: #040404;
+  position: relative;
+  width: 120px;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+.about-profile .pro-title:after {
+  position: absolute;
+  content: ":";
+  color: #040404;
+  font-size: 14px;
+  left: 77px;
+}
+.about-profile .admin-sign {
+  position: absolute;
+  right: 45px;
+  bottom: 10px;
+}
+
+#about .img-thumb img {
+  border: 8px solid #fff;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
+}
+
+.profile-wrapper {
+  padding: 45px 0;
+}
+
+.profile-wrapper .btn {
+  margin: 10px 10px 0px 0px;
+}
+
+.profile-wrapper .btn i {
+  vertical-align: middle;
+  margin-right: 5px;
+}

@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./index.css";
+import "./global.css";
 import MainPage from "./pages/MainPage/MainPage";
 import reportWebVitals from "./reportWebVitals";
 

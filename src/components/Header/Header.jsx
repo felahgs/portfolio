@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "../Navbar/Navbar";
+import "./style.css";
 
 const socialLinks = [
   { label: "facebook", href: "#", class: "icon-social-facebook" },

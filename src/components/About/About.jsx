@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import { calculateAge, hello } from "../../utils/dates";
+import "./style.css";
 
 const infoList = {
   Name: "Felipe Garcia de Souza",
