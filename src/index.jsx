@@ -1,8 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./global.css";
 import MainPage from "./pages/MainPage/MainPage";
 import reportWebVitals from "./reportWebVitals";
+import "./assets/css/bootstrap.min.css";
+import "./assets/fonts/font-awesome.min.css";
+import "./assets/css/global.css";
+import "./assets/css/responsive.css";
+import "./assets/fonts/simple-line-icons.css";
 
 ReactDOM.render(
   <React.StrictMode>

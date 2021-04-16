@@ -420,3 +420,18 @@ a.back-to-top:hover, a.back-to-top:focus {
     background: #f8f9fa;
   }
 }
+
+.overlay .preview {
+  position: absolute;
+  left: 45%;
+  top: 50%;
+  color: #fff;
+}
+
+.overlay .link {
+  position: absolute;
+  left: 60%;
+  margin-left: 10px;
+  top: 50%;
+  color: #fff;
+}
