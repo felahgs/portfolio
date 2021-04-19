@@ -1,5 +1,4 @@
 import React from "react";
-import Navbar from "../Navbar/Navbar";
 import PropTypes from "prop-types";
 import "./style.css";
 
@@ -50,20 +49,16 @@ const ContainerContent = ({ name, prefix, sufix }) => (
 
 const Header = () => {
   return (
-    <>
-      <Navbar />
-
-      <header id="header-wrap">
-        <div id="hero-area" className="hero-area-bg">
-          <div className="overlay" />
-          <ContainerContent
-            prefix="Heya, This is"
-            name="Felipe Souza"
-            sufix="I'm Front-end Software Developer"
-          />
-        </div>
-      </header>
-    </>
+    <header id="header-wrap">
+      <div id="hero-area" className="hero-area-bg">
+        <div className="overlay" />
+        <ContainerContent
+          prefix="Heya, This is"
+          name="Felipe Souza"
+          sufix="I'm Front-end Software Developer"
+        />
+      </div>
+    </header>
   );
 };
 

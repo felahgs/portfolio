@@ -1,15 +1,16 @@
+
 .timeline {
   position: relative;
 }
 
 .timeline .timelin-title {
-  font-size: 20px;
+  font-size: 24px;
   text-transform: uppercase;
   margin-left: 25px;
 }
 
 .timeline li {
-  padding: 0 20px 20px 30px;
+  padding: 0px 0px 20px 30px;
   list-style: none;
   border-left: 2px solid #f1f1f1;
 }
@@ -20,19 +21,20 @@
 }
 
 .timeline li .line-title {
-  font-size: 16px;
-  line-height: 6px;
+  font-size: 22px;
+  /* line-height: 6px; */
 }
 
 .timeline li span {
-  font-size: 12px;
+  font-size: 19px;
   padding: 9px 0;
   display: block;
 }
 
 .timeline li .line-text {
   color: #888;
-  line-height: 18px;
+  font-size: 19px;
+  padding: 15px 0px 0 0;
 }
 
 .timeline li:first-child:before {
@@ -42,7 +44,7 @@
 }
 
 .timeline li:last-child {
-  padding: 0 20px 0px 30px;
+  padding: 0 0px 0px 30px;
 }
 
 .timeline li:before {

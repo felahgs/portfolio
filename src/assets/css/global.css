@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -244,6 +248,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 .section-padding {
   padding: 60px 0;
+  padding-top: 90px;
 }
 .top-nav-collapse .navbar-brand {
   top: 0px;

@@ -52,6 +52,11 @@
   position: relative;
 }
 
+.project-image {
+  height: 4rem;
+  width: 6rem;
+}
+
 .portfolio-img img {
   width: 100%;
 }

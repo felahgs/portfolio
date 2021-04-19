@@ -1,4 +1,5 @@
 import React from "react";
+import Navbar from "../../components/Navbar/Navbar";
 import Header from "../../components/Header/Header";
 import About from "../../components/About/About";
 import Portifolio from "../../components/Portifolio/Portifolio";
@@ -9,6 +10,7 @@ import Footer from "../../components/Footer/Footer";
 const MainPage = () => {
   return (
     <div>
+      <Navbar />
       <Header />
       <About />
       <Portifolio />
