@@ -15,8 +15,10 @@ const Resume = () => {
               <li>
                 <div className="content-text">
                   <h3 className="line-title">
-                    Bacharelado em Ciência da Computação - Universidade Federal
-                    do Paraná
+                    Bacharelado em Ciência da Computação
+                  </h3>
+                  <h3 className="line-subtitle">
+                    Universidade Federal do Paraná
                   </h3>
                   <span>2013 - 2019</span>
                   <p className="line-text">
@@ -71,8 +73,9 @@ const Resume = () => {
               <li>
                 <div className="content-text">
                   <h3 className="line-title">
-                    Engenheiro de Software Front-End - Dextra Digital
+                    Engenheiro de Software Front-End
                   </h3>
+                  <h3 className="line-subtitle">Dextra Digital</h3>
                   <span>Mar 2020 - Atualmente</span>
                   <p className="line-text">
                     Projeto onde me consolidei como desenvolvedor ReactJS e que
@@ -94,9 +97,8 @@ const Resume = () => {
               </li>
               <li>
                 <div className="content-text">
-                  <h3 className="line-title">
-                    Engenheiro de Software Junior - Cinq Technologies
-                  </h3>
+                  <h3 className="line-title">Engenheiro de Software Junior</h3>
+                  <h3 className="line-subtitle">Cinq Technologies</h3>
                   <span>Jun 2019 - Mar 2020</span>
                   <p className="line-text">
                     Auxiliei no suporte e manutenção de uma aplicação
@@ -118,9 +120,8 @@ const Resume = () => {
               </li>
               <li>
                 <div className="content-text">
-                  <h3 className="line-title">
-                    Estagiário Desenvolvedor - Cinq Technologies
-                  </h3>
+                  <h3 className="line-title">Estagiário Desenvolvedor</h3>
+                  <h3 className="line-subtitle">Cinq Technologies</h3>
                   <span>Jun 2017 - Jun 2019</span>
                   <p className="line-text">
                     Onde tive minha primeira experiência profissional com
@@ -148,8 +149,9 @@ const Resume = () => {
               </li>
               <li>
                 <div className="content-text">
-                  <h3 className="line-title">
-                    Estagiário HelpDesk - Tinfo Tecnologia da Informação
+                  <h3 className="line-title">Estagiário HelpDesk</h3>
+                  <h3 className="line-subtitle">
+                    Tinfo Tecnologia da Informação
                   </h3>
                   <span>Nov 2016 - Dec 2017</span>
                   <p className="line-text">
@@ -165,9 +167,8 @@ const Resume = () => {
               </li>
               <li>
                 <div className="content-text">
-                  <h3 className="line-title">
-                    Estagiário Suporte técnico - Geha Sistemas Especialistas
-                  </h3>
+                  <h3 className="line-title">Estagiário Suporte técnico</h3>
+                  <h3 className="line-subtitle">Geha Sistemas Especialistas</h3>
                   <span>Nov 2013 - Mar 2014</span>
                   <p className="line-text">
                     Realização de suporte técnico a usuários do programa Urânia,

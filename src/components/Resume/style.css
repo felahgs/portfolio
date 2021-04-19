@@ -22,10 +22,15 @@
 
 .timeline li .line-title {
   font-size: 22px;
+  color: #00b4d9;
   /* line-height: 6px; */
 }
+.timeline li .line-subtitle {
+  font-size: 20px;
+  font-style: italic;
+}
 
-.timeline li span {
+.timeline li .cycle-lenght {
   font-size: 19px;
   padding: 9px 0;
   display: block;

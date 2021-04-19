@@ -4,7 +4,7 @@
   text-align: center;
   letter-spacing: 1px;
   line-height: 1;
-  margin-bottom: 48px;
+  margin-bottom: 15px;
   padding: 0 10px;
   position: relative;
 }
@@ -138,4 +138,28 @@ a:not([href]):not([tabindex]) {
 
 a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   color: #fff;
+}
+
+.mettaur {
+  position: relative;
+}
+
+.mettaur-walk {
+  /* transform: scaleX(-1); */
+  height: 40px;
+  animation: go-back 10s infinite normal;
+  animation-timing-function: linear;
+}
+
+.mettaur-pic {
+  height: 80px;
+}
+
+@keyframes go-back {
+  0% {
+    transform: translateX(100vw);
+  }
+  100% {
+    transform: translateX(-25vw);
+  }
 }
